@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
@@ -25,6 +26,8 @@ body {
   background-image: url("./imagem/Background.png");
   background-repeat: no-repeat;
   background-size: contain;
+  align-items: center;
+  text-align: center;
 }
 
 .container {
@@ -40,6 +43,7 @@ body {
   color: var(--branco-principal);
   display: block;
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .botao_secundario{
